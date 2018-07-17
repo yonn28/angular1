@@ -1,0 +1,19 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{evento.nombre}}</mat-card-title>
+      <mat-card-subtitle>{{evento.fecha}}</mat-card-subtitle>
+    </mat-card-header>
+    <!-- <div class="containerImage"> -->
+      <img mat-card-image [src]="evento.imageUrl" alt="Photo of a Shiba Inu">
+    <!-- </div> -->
+    <mat-card-content>
+      <p>
+        {{evento.description}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="accent">ASISTIR</button>
+      <button mat-button>COMPARTIR</button>
+    </mat-card-actions>
+  </mat-card>

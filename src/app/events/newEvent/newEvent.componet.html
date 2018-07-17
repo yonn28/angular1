@@ -1,0 +1,29 @@
+<div class="biggerContainer">
+  <div class="example-container ">
+    <h1>Nuevo Evento</h1>
+    <form (ngSubmit)="save()">  
+      <p>
+        <span> id del evento: </span> {{evento.id}}
+      </p>    
+      <label>nombre del evento</label>
+       <input type="text" [(ngModel)]="evento.nombre" name="nombre" required>
+       <p>
+        <label for="date">fecha del evento</label>
+      </p>
+      <p>
+        <input type="date" id="date" [(ngModel)]="evento.fecha" name="fecha" required>
+      </p>
+        <label for="Url">imageUrl del evento</label>
+        <input type="text" [(ngModel)]="evento.imageUrl" id="Url" name="imageUrl" required>
+        <label>descripcion del evento</label>
+        <input type="text" [(ngModel)]="evento.description" name="description" style="height:200px" required>
+        <label>ciudad del evento</label>
+        <input type="text" [(ngModel)]="evento.ciudad" name="ciudad" required>
+  
+      <p class="btns">
+        <button type="submit" class="typeSumit">Submit</button>
+        <button (click)="cancelar()" class="typeCancel">Cancelar</button>
+      </p>
+    </form>
+  </div>
+</div>
