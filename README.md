@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calse1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
@@ -25,3 +26,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+>>>>>>> 6f16d40ae8e63fe97ab10099f67511e1fd742ea7
